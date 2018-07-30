@@ -1,0 +1,2 @@
+create table t20180701 (id INT NOT NULL PRIMARY KEY, ticker VARCHAR(20), MktCap BIGINT, Price DOUBLE, Volume BIGINT);
+insert into t20180701 (id, ticker, MktCap, Price, Volume) VALUES (1, 'BTC', 109221170204, 6377.8, 4329018274);
