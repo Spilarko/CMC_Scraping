@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# Povodne navrhnute na scraping historickch CMC website snapshotov (nedokoncene)
+# Treba to prerobit na Weekly Live stahovanie dat
 
 import re
 import pymysql.cursors
@@ -8,7 +10,7 @@ subor = "20180701"
 
 #Let's open a database
 try:
-	conn = pymysql.connect(host='127.0.0.1',user='root',password='Matisko',db='CMC')
+	conn = pymysql.connect(host='127.0.0.1',user='hello',password='Hello123!',db='CMC')
 	
 
 	#Read the text file
